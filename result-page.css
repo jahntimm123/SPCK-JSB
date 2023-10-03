@@ -1,0 +1,52 @@
+/* the same for everypage */
+.nav-bar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+  }
+  .logo {
+    height: 50px;
+  }
+  .logo:hover {
+    cursor: pointer;
+  }
+  .footer{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  
+  }
+  .footer div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 4rem;
+  }
+  .footer i{
+    height: 26px;
+  }
+/* the same for everypage */
+.result-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.result-container img{
+    height: 20rem;
+}

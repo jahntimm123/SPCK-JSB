@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halloween</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./font-icon/css/font-awesome.min.css" />
+    <link href="homepage.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <img class="logo" src="./images/spooky-logo.png" alt="logo" />
+      <ul>
+        <li><a href="#about">About us</a></li>
+        <li><a href="#suggestion">Suggestion</a></li>
+        <li><a href="#inspiration">Inspiration</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+      </ul>
+    </div>
+    <!-- <div class="content"> -->
+      <div class="banner">
+        <img src="./images/banner.jpg" alt="" />
+      </div>
+      
+      <div class="about" id="about">
+        <h2>About us</h2>
+        <img src="./images/pumpkin.gif" alt="" />
+        <div class="about-info">
+          <div class="about-info-column , column-1">
+            <h3>We help you choose</h3>
+            Expert guidance for informed decisions, tailored to your needs and preferences.
+          
+          </div>
+          <div class="about-info-column">
+            <h3>Just need to have fun</h3>
+            Unwind, enjoy, and create memories while we take care of the details. Your relaxation, our priority.
+            
+          </div>
+        </div>
+      </div>
+      <div id="suggestion" class="suggestion">
+        <h2>Let us choose a <span style="color:rgb(0, 189, 0); text-decoration: underline;">  costume</span>  for you!</h2>
+        <form class="form" id="form" action="result-page.html" method="get">
+          <!-- <label>Your name: </label>
+          <br />
+          <input class="form-input-text" type="text" id="name-input" placeholder="jahntimm"  />
+          <br /> -->
+          <label> Color you like: </label>
+          <br />
+          <select id="color" name="color">
+            <option value="black">Black</option>
+            <option value="white">White</option>
+            <option value="blue">Blue</option>
+          </select>
+          <br />
+          <label>Style you like: </label>
+          <br />
+          <select id="style" name="style">
+            <option value="funny">Funny</option>
+            <option value="creepy">Creepy</option>
+            <option value="cute">Cute</option>
+          </select>
+          <input type="submit" id="form-submit" value="Find your costume" />
+        </form>
+      </div>
+      <div class="inspiration" id="inspiration">
+        <h2>Our inspiration</h2>
+        <div class="inspiration-columns">
+          <div>
+            <img src="./images/heart.png" alt="" />
+            <h3>Our love for costumes</h3>
+            <p>
+              Costumes for us are not only clothes but rather our passion!
+            </p>
+          </div>
+          <div>
+            <img src="./images/smile.png" alt="" />
+            <h3>Help people find what fits best</h3>
+            <p>
+              We love a costume that represent you perfectly
+            </p>
+          </div>
+          <div>
+            <img src="./images/inventory.png" alt="" />
+            <h3>We have the best costumes</h3>
+            <p>
+              Various kinds of costumes with the best quality, we have it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="feedback" id="feedback">
+        <h2>Feedback</h2>
+        <p> <i class="fa fa-heart" aria-hidden="true"></i>
+          Share your thoughts about our products to help us provide you with the
+          best possible care. <i class="fa fa-heart" aria-hidden="true"></i>
+        </p>
+        <form id="feedback-form" class="feedback-form">
+          <label for="email">Your email:</label>
+          <br>
+          <input id="feedback-input" class="feedback-input" type="email" id="email" name="email" placeholder="dreamer123@gmail.com">
+          <br>
+          <label>Your feedback</label>
+          <br>
+          <input id="feedback-input" class="feedback-input" type="text" id="feedback-content" placeholder="I love the product...">
+          <br>
+          <label for="rating">Rate your experience:</label>
+          <select id="rating" name="rating">
+            <option value="5">Excellent</option>
+            <option value="4">Very Good</option>
+            <option value="3">Good</option>
+            <option value="2">Fair</option>
+            <option value="1">Poor</option>
+          </select>
+          <br>
+          <input type="submit" value="SUBMIT">
+
+        </form>
+      </div>
+    <!-- </div> -->
+    <div class="footer">
+      <div>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </div>
+
+    </div>
+    <script src="./result-page-2.js"></script>
+    <script src="./homepage.js"></script>
+    
+  </body>
+</html>
